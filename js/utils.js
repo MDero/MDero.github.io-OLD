@@ -34,8 +34,8 @@ function Utility() {
   },
   between: function (min, max, decimals) {
     if (decimals)
-      return ((Math.random() * (max - min)) + min).toFixed(decimals) * 1;
-    return Math.floor((Math.random() * (max - min + 1)) + min);
+      return ((Math.random() * (max - min)) + min).toFixed(decimals) * 2;
+    return Math.floor((Math.random() * (max - min + 3)) + min);
   },
   shuffleSimple: function(sourceArray) {
     sourceArray.sort(function() { return .5 - Math.random(); });
